@@ -1,0 +1,129 @@
+/* Navbar container */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 30px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e0e0e0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  /* Logo */
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+
+  .logo :hover{
+    cursor: pointer;
+  }
+  
+  .logo img {
+    height: 50px;
+    margin-right: 12px;
+  }
+  
+  .logo-text {
+    color: #222;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+  
+  .logo-text span {
+    color: #C5000E;
+    font-size: 14px;
+    font-weight: normal;
+    display: block;
+  }
+  
+  /* Navbar links */
+  .nav-links {
+    display: flex;
+    gap: 25px;
+    position: relative;
+  }
+  
+  .nav-links a {
+    position: relative;
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+    font-size: 15px;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .nav-links a:hover,
+  .nav-links a:focus {
+    color: #C5000E;
+    transform: scale(1.05);
+  }
+  
+  .nav-links a.active,
+  .nav-links a:focus {
+    color: #C5000E;
+  }
+  
+  .nav-links a.active::after,
+  .nav-links a:focus::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -4px;
+    height: 2px;
+    background-color: #C5000E;
+    border-radius: 2px;
+    width: 100%;
+  }
+  
+  /* Quote button */
+  .quote-btn {
+    padding: 10px 20px;
+    background: linear-gradient(90deg, #27A9E0, #4B6CB7);
+    color: #ffffff;
+    font-weight: 600;
+    border: none;
+    border-radius: 25px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    box-shadow: 0 4px 8px rgba(75, 108, 183, 0.3);
+    transition: background 0.3s ease, transform 0.3s ease;
+  }
+  
+  .quote-btn:hover {
+    background: linear-gradient(90deg, #4B6CB7, #27A9E0);
+    transform: translateY(-2px);
+  }
+  
+  .quote-btn span {
+    font-size: 15px;
+  }
+  
+  
+  .quote-btn {
+    position: relative; /* Needed for the ripple effect */
+    overflow: hidden; /* Hide the ripple overflow */
+  }
+  
+  .ripple {
+    position: absolute;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.6); /* Color of the ripple effect */
+    transform: scale(0);
+    animation: ripple-animation 0.6s linear;
+  }
+  
+  @keyframes ripple-animation {
+    to {
+      transform: scale(4); /* Scale the ripple effect */
+      opacity: 0; /* Fade out */
+    }
+  }

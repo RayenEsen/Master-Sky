@@ -1,0 +1,16 @@
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 1rem;
+    background: linear-gradient(to right, #33578a, #27a0c7);
+    color: white;
+    font-weight: 500;
+    font-style: italic; /* Makes the font italic */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: cursive;
+  }
+  
