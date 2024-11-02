@@ -14,3 +14,23 @@
     font-family: cursive;
   }
   
+
+.footer2
+{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  top: 55%;
+  right: 0;
+  min-width: -webkit-fill-available;
+}
+
+
+.custom-title {
+  font-size: 1.25rem; /* Adjust font size as needed */
+  font-weight: 600;   /* Semi-bold */
+  line-height: 1.5;   /* Adjust line height if necessary */
+  color: #C62828;     /* Dark red color */
+  margin: 0;          /* Remove default margin */
+  padding: 10px 0;    /* Add some padding if needed */
+}
