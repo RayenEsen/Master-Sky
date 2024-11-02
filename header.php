@@ -26,10 +26,11 @@
             <a href="#contact">CONTACT</a>
         </div>
 
-        <!-- Quote button -->
-        <a href="#quote" class="quote-btn">
-            <span>DEMANDER UN DEVIS</span> ➔
+        <a href="#quote" class="quote-btn" style="color : white">
+            <span>DEMANDER UN DEVIS</span>
+            <span class="circle-arrow">➔</span> <!-- Circle around the arrow -->
         </a>
+
 
     </nav>
     <?php wp_footer(); ?>

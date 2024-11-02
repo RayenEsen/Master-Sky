@@ -89,7 +89,7 @@
     color: #ffffff;
     font-weight: 600;
     border: none;
-    border-radius: 25px;
+    border-radius: 13px;
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -127,3 +127,25 @@
       opacity: 0; /* Fade out */
     }
   }
+
+
+  .quote-btn {
+    display: inline-flex; /* Use inline-flex to keep elements aligned */
+    align-items: center; /* Center items vertically */
+    text-decoration: none; /* Remove underline from the link */
+    color: #000; /* Change to your desired text color */
+}
+
+
+.circle-arrow {
+  display: inline-flex; /* Ensure the span is inline-flex */
+  align-items: center; /* Center the arrow */
+  justify-content: center; /* Center the arrow */
+  width: 30px; /* Set a width for the circle */
+  height: 30px; /* Set a height for the circle */
+  background-color: rgb(200 200 200 / 25%);
+  border-radius: 50%; /* Make it a circle */
+  margin-left: 8px; /* Add space between text and circle */
+  font-size: 16px; /* Adjust font size as needed */
+}
+

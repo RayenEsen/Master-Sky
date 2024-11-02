@@ -27,15 +27,38 @@
 
 
 .custom-title {
-  font-size: 1.25rem; /* Adjust font size as needed */
-  font-weight: 600;   /* Semi-bold */
-  line-height: 1.5;   /* Adjust line height if necessary */
-  color: #C62828;     /* Dark red color */
+  font-size: 1.75rem; /* Increased font size */
+  font-weight: 500;   /* Bold */
+  line-height: 1.75;  /* Increased line height */
+  color: #aa1e1e;     /* Dark red color */
   margin: 0;          /* Remove default margin */
-  padding: 10px 0;    /* Add some padding if needed */
+  padding: 15px 0;    /* Increased padding */
+}
+
+input::placeholder {
+  font-size: 1.25rem; /* Increased font size */
+  font-weight: 500;   /* Bold */
+  line-height: 1.75;  /* Increased line height */
+  color: gray; /* Change color if needed */
+}
+
+.custom-div {
+  background-color: #73d1dd14;
+  border-color: rgb(12, 98, 159);
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 8px; /* Adjust for desired roundness */
 }
 
 
+.btnfooter {
+  padding: 8px 15px;
+  background: linear-gradient(90deg, #27A9E0, #4B6CB7);
+  color: #ffffff;
+  font-weight: 500;
+  border: none;
+  border-radius: 6px;
+  margin-right: 5px;
+  text-decoration: none;
 
-
-
+}

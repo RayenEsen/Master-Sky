@@ -1,17 +1,20 @@
-<div class=" container py-16 xl:px-20 lg:px-12 sm:px-6 px-4 footer2" style="  background-image: url('<?php echo get_template_directory_uri(); ?>/assets/images/Contact.jpg');">
+<div class="container py-16 xl:px-20 lg:px-12 sm:px-6 px-4 footer2" 
+     style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/images/ContactBackground.jpg'); 
+            background-repeat: no-repeat; 
+            background-size: cover;">
 <?php wp_head(); ?>
-  <!--- more free and premium Tailwind CSS components at https://tailwinduikit.com/ --->
   <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4 md:gap-8 gap-4">
-    <div class="flex flex-col flex-shrink-0">
+    <div class="flex flex-col flex-shrink-0" >
       <div>
   
         <div> 
-            <img  style="max-width: 80%;" src="<?php echo get_template_directory_uri(); ?>/assets/images/TransparentLogo.png" alt="Master Sky Logo">
+        <img  
+    style="max-width: 80%; height: auto; max-height: 120px;" 
+    src="<?php echo get_template_directory_uri(); ?>/assets/images/TransparentLogo.png" 
+    alt="Master Sky Logo">
         </div>
       </div>
-      <p class="text-sm leading-none text-gray-800 mt-4 dark:text-white">Worem ipsum dolor sit amet, consectetur
-adipiscing elit. Nunc vulputate libero et velit
-interdum, ac aliquet odio mattis.</p>
+      <p class="styled-text">Worem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</p>
       <div class="flex items-center gap-x-4 mt-12">
         Suivez-nous : 
         <button aria-label="instagram" class="focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800 opacity-50 w-8 h-8 flex-shrink-0 bg-gray-800 cursor-pointer hover:bg-gray-700 rounded-full flex items-center justify-center">
@@ -35,29 +38,34 @@ interdum, ac aliquet odio mattis.</p>
 
       </div>
     </div>
-    <div class="sm:ml-0 ml-8 flex flex-col">
-      <h2 class="custom-title">Quick Links</h2>
-      <a href="javascript:void(0)" class="focus:outline-none focus:underline hover:text-gray-500 text-base leading-4 mt-6 text-gray-800 dark:text-white cursor-pointer">Lorem ipsum</a>
-      <a href="javascript:void(0)" class="focus:outline-none focus:underline hover:text-gray-500 text-base leading-4 mt-6 text-gray-800 dark:text-white cursor-pointer">Lorem ipsum</a>
-      <a href="javascript:void(0)" class="focus:outline-none focus:underline hover:text-gray-500 text-base leading-4 mt-6 text-gray-800 dark:text-white cursor-pointer">Lorem ipsum</a>
-      <a href="javascript:void(0)" class="focus:outline-none focus:underline hover:text-gray-500 text-base leading-4 mt-6 text-gray-800 dark:text-white cursor-pointer">Lorem ipsum</a>
+    <div class="sm:ml-0 ml-8 flex flex-col" style="margin-left: 150px;">
+      <h2 class="custom-title" style="margin-top: -22px;">Quick Links</h2>
+      <a href="javascript:void(0)" class="focus:outline-none  hover:text-gray-500 styled-text leading-4 mt-6 text-gray-800 dark:text-white cursor-pointer " >Lorem ipsum</a>
+      <a href="javascript:void(0)" class="focus:outline-none  hover:text-gray-500 styled-text leading-4 mt-6 text-gray-800 dark:text-white cursor-pointer">Lorem ipsum</a>
+      <a href="javascript:void(0)" class="focus:outline-none  hover:text-gray-500 styled-text leading-4 mt-6 text-gray-800 dark:text-white cursor-pointer">Lorem ipsum</a>
+      <a href="javascript:void(0)" class="focus:outline-none  hover:text-gray-500 styled-text leading-4 mt-6 text-gray-800 dark:text-white cursor-pointer">Lorem ipsum</a>
     </div>
     <div class="flex flex-col">
-      <h2 class="custom-title">Lorem ipsum</h2>
-      <a href="javascript:void(0)" class="focus:outline-none focus:underline hover:text-gray-500 text-base leading-4 mt-6 text-gray-800 dark:text-white cursor-pointer">FAQs</a>
-      <a href="javascript:void(0)" class="focus:outline-none focus:underline hover:text-gray-500 text-base leading-4 mt-6 text-gray-800 dark:text-white cursor-pointer">About us</a>
-      <a href="javascript:void(0)" class="focus:outline-none focus:underline hover:text-gray-500 text-base leading-4 mt-6 text-gray-800 dark:text-white cursor-pointer">Lorem ipsum</a>
-      <a href="javascript:void(0)" class="focus:outline-none focus:underline hover:text-gray-500 text-base leading-4 mt-6 text-gray-800 dark:text-white cursor-pointer">Lorem ipsum</a>
+      <h2 class="custom-title" style="margin-top: -22px;">Lorem ipsum</h2>
+      <a href="javascript:void(0)" class="focus:outline-none  hover:text-gray-500 styled-text leading-4 mt-6 text-gray-800 dark:text-white cursor-pointer">FAQs</a>
+      <a href="javascript:void(0)" class="focus:outline-none  hover:text-gray-500 styled-text leading-4 mt-6 text-gray-800 dark:text-white cursor-pointer">About us</a>
+      <a href="javascript:void(0)" class="focus:outline-none  hover:text-gray-500 styled-text leading-4 mt-6 text-gray-800 dark:text-white cursor-pointer">Lorem ipsum</a>
+      <a href="javascript:void(0)" class="focus:outline-none  hover:text-gray-500 styled-text leading-4 mt-6 text-gray-800 dark:text-white cursor-pointer">Lorem ipsum</a>
     </div>
-    <div class="mt-10 lg:block hidden">
-      <label class="custom-title">Lorem ipsum</label>
-      <p class="text-sm leading-none text-gray-800 mt-4 dark:text-white">Rorem ipsum dolor sit amet,
+    <div class="mt-10 lg:block hidden" style="margin-top: -4px;">
+      <label class="custom-title" >Lorem ipsum</label>
+      <p class="styled-text">Rorem ipsum dolor sit amet,
       consectetur adipiscing elit.</p>
-      <div class="cursor-pointer flex items-center justify-between border border-gray-800 dark:border-white mt-4">
-        <input type="text" class="text-base leading-4 p-4 w-full focus:outline-none text-gray-800 dark:text-white dark:placeholder-white dark:bg-gray-900 dark:border-white placeholder-gray-800" placeholder="Contact@mail.com" />
-        <a href="#quote">
-            <span>Sign up</span>
-        </a>
+      <div class="custom-div cursor-pointer flex items-center justify-between mt-4">
+      <input
+    style="background-color: #73d1dd14;"
+    type="text"
+    class="text-base leading-4 p-4 w-full focus:outline-none text-gray-800 dark:text-white dark:placeholder-white dark:bg-gray-900 dark:border-white placeholder-gray-800"
+    placeholder="Contact@mail.com"
+/>        <a href="#quote" class="btnfooter">
+          <span>SIGNUP</span>
+      </a>
+
       </div>
     </div>
   </div>

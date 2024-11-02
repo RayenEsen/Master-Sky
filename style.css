@@ -8,3 +8,17 @@ Author: Rayen Triki
 Author URI: https://github.com/RayenEsen
 */
 
+
+
+.styled-text {
+    font-size: 20px;
+    line-height: 1.5;
+    color: #333;
+    margin-top: 16px;
+    font-family: system-ui;
+    padding-left: 5px;
+  }
+  
+  .dark .styled-text {
+    color: #fff; /* White text for dark mode */
+  }
