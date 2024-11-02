@@ -27,3 +27,18 @@
         });
     });
 });
+
+    // Function to update the section title based on the URL hash
+    function updateSectionTitle() {
+        // Get the hash from the URL (without the # symbol)
+        const section = window.location.hash.substring(1);
+
+        // Set the section title if the hash exists, otherwise set default value
+        document.getElementById('section-title').textContent = section || 'Home';
+    }
+
+    // Run on initial page load
+    updateSectionTitle();
+
+    // Update title when the hash changes (e.g., clicking different nav links)
+    window.addEventListener('hashchange', updateSectionTitle);
