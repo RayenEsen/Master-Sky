@@ -18,4 +18,45 @@ function register_scripts1()
 }
 
 add_action('wp_enqueue_scripts', 'register_scripts1');
+
+
+function register_menus()
+{
+    $locations = array(
+        'primary' => 'Navbar'
+    );
+    register_nav_menus($locations);
+}
+
+add_action('init', 'register_menus');
+
+
+
+class Custom_Nav_Walker extends Walker_Nav_Menu {
+    function start_lvl( &$output, $depth = 0, $args = null ) {
+        // No <ul> for submenu levels
+    }
+
+    function end_lvl( &$output, $depth = 0, $args = null ) {
+        // No </ul> for submenu levels
+    }
+
+    function start_el( &$output, $item, $depth = 0, $args = null, $id = 0 ) {
+        // Remove automatic 'active' class assignment
+        $class_names = '';
+        
+        $output .= sprintf(
+            '<a href="%s" class="%s">%s</a>',
+            esc_url($item->url),
+            esc_attr($class_names),
+            esc_html($item->title)
+        );
+    }
+
+    function end_el( &$output, $item, $depth = 0, $args = null ) {
+        $output .= "\n";
+    }
+}
+
+
 ?>
