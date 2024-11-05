@@ -12,6 +12,8 @@
     top: 0;
     z-index: 1000;
   }
+
+
   
   /* Logo */
   .logo {
@@ -41,6 +43,15 @@
     font-weight: normal;
     display: block;
   }
+
+  @media (max-width: 768px) {
+    .quote-btn{
+      visibility: hidden;
+    }
+  }
+
+
+
   
   /* Navbar links */
   .nav-links {
@@ -188,5 +199,69 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Container for navbar items */
+.navbar {
+  display: flex;
+  align-items: center; /* Center items vertically */
+  justify-content: space-between; /* Space between logo and menu */
+}
+
+/* Hide nav links and show hamburger icon on smaller screens */
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.menu-toggle span {
+  width: 25px;
+  height: 3px;
+  background-color: #333;
+  margin: 5px;
+  transition: 0.3s;
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none; /* Hide links by default */
+    flex-direction: column;
+    position: absolute;
+    top: 100%; /* Positioning below navbar */
+    right: 0;
+    background-color: #ffffff;
+    width: 100%;
+    padding: 1rem;
+    border-top: 1px solid #e0e0e0;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .nav-links.active {
+    display: flex; /* Show links when active */
+  }
+
+  .menu-toggle {
+    display: flex; /* Show hamburger icon */
+    order: -1; /* Move menu icon to the start */
+  }
+
+  .logo {
+    flex: 1; /* Center-align logo */
+    order: 1; /* Keep logo in the center */
+  }
+}
 
 

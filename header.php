@@ -16,16 +16,25 @@
             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Logo1.jpg" alt="Master Sky Logo">
         </div>
 
-        <div class="nav-links">
-    <?php
-    wp_nav_menu(array(
-        'theme_location' => 'primary',
-        'container' => '',
-        'items_wrap' => '%3$s', // Removes the <ul> wrapper
-        'walker' => new Custom_Nav_Walker(), // Use the custom walker
-    ));
-    ?>
-</div>
+        <!-- Hamburger menu icon for mobile view -->
+        <div class="menu-toggle" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+
+        <div class="nav-links" id="navLinks">
+            
+            <?php
+            wp_nav_menu(array(
+                'theme_location' => 'primary',
+                'container' => '',
+                'items_wrap' => '%3$s', // Removes the <ul> wrapper
+                'walker' => new Custom_Nav_Walker(), // Use the custom walker
+            ));
+            ?>
+        </div>
 
 
 
