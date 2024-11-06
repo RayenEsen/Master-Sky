@@ -50,7 +50,27 @@
         <div ></div>
         <div class="content">
         <h1 class="CTATitle">- <span id="section-title"><?php the_title() ?></span> -</h1>
-        <p class="styled-text2">Borem ipsum dolor sit amet, consectetur adipiscing <br> elit. Nunc vulputate.</p>
+        <p class="styled-text2">
+        <p class="styled-text2">
+    <?php
+    if (is_page('about')) {
+        echo 'Discover the heart of our company: our story, mission, and core values that drive us forward.<br>';
+    } elseif (is_page('services')) {
+        echo 'Explore our wide range of expert services designed to meet your needs with the highest standards of quality.<br>';
+    } elseif (is_page('contact')) {
+        echo 'Feel free to reach out to us for any inquiries, feedback, or assistance. We are here to help!<br>';
+    } elseif (is_page('innovation-sustainability')) {
+        echo 'Learn about our commitment to innovation and sustainability, driving us to create a better future for all.<br>';
+    } elseif (is_page('products')) {
+        echo 'Browse our diverse selection of high-quality products tailored to your needs and expectations.<br>';
+    } elseif (is_page('realisation')) {
+        echo 'Discover the incredible projects and realisations we’ve completed, showcasing our expertise and dedication.<br>';
+    } else {
+        echo 'Welcome to our site, where quality meets excellence. Explore, learn, and connect with us!<br>';
+    }
+    ?>
+</p>
+
         </div>
     </header>
     <?php wp_footer(); ?>
