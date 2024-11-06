@@ -54,19 +54,19 @@
         <p class="styled-text2">
     <?php
     if (is_page('about')) {
-        echo 'Discover the heart of our company: our story, mission, and core values that drive us forward.<br>';
+        echo 'Discover the heart of our company: our story, mission, <br> and core values that drive us forward.';
     } elseif (is_page('services')) {
-        echo 'Explore our wide range of expert services designed to meet your needs with the highest standards of quality.<br>';
+        echo 'Explore our wide range of expert services designed to meet <br> your needs with the highest standards of quality.';
     } elseif (is_page('contact')) {
-        echo 'Feel free to reach out to us for any inquiries, feedback, or assistance. We are here to help!<br>';
+        echo 'Feel free to reach out to us for any inquiries ,<br> feedback, or assistance. We are here to help!';
     } elseif (is_page('innovation-sustainability')) {
-        echo 'Learn about our commitment to innovation and sustainability, driving us to create a better future for all.<br>';
+        echo 'Learn about our commitment to innovation and sustainability, <br> driving us to create a better future for all.';
     } elseif (is_page('products')) {
-        echo 'Browse our diverse selection of high-quality products tailored to your needs and expectations.<br>';
+        echo 'Browse our diverse selection of high-quality products <br> tailored to your needs and expectations.';
     } elseif (is_page('realisation')) {
-        echo 'Discover the incredible projects and realisations we’ve completed, showcasing our expertise and dedication.<br>';
+        echo 'Discover the incredible projects and realisations we’ve completed,<br> showcasing our expertise and dedication.';
     } else {
-        echo 'Welcome to our site, where quality meets excellence. Explore, learn, and connect with us!<br>';
+        echo 'Welcome to our site, where quality meets excellence. <br> Explore, learn, and connect with us!';
     }
     ?>
 </p>

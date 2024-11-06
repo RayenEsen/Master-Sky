@@ -10,7 +10,7 @@
              src="<?php echo get_template_directory_uri(); ?>/assets/images/TransparentLogo.png" 
              alt="Master Sky Logo">
       </div>
-      <p class="styled-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</p>
+      <p class="styled-text">Thank you for visiting our site. We strive to offer the best services and innovative solutions to meet your needs.</p>
       <div class="flex items-center gap-x-4 mt-12">
         <span>Suivez-nous :</span>
         <button aria-label="instagram" class="focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800 opacity-50 w-8 h-8 flex-shrink-0 bg-gray-800 cursor-pointer hover:bg-gray-700 rounded-full flex items-center justify-center">
@@ -34,23 +34,23 @@
     </div>
     <div class="sm:ml-[150px] ml-0 flex flex-col">
   <h2 class="custom-title" style="margin-top: -22px;">Quick Links</h2>
-  <a href="javascript:void(0)" class="focus:outline-none hover:text-gray-500 styled-text leading-4 mt-6 text-gray-800 dark:text-white cursor-pointer">Lorem ipsum</a>
-  <a href="javascript:void(0)" class="focus:outline-none hover:text-gray-500 styled-text leading-4 mt-6 text-gray-800 dark:text-white cursor-pointer">Lorem ipsum</a>
-  <a href="javascript:void(0)" class="focus:outline-none hover:text-gray-500 styled-text leading-4 mt-6 text-gray-800 dark:text-white cursor-pointer">Lorem ipsum</a>
-  <a href="javascript:void(0)" class="focus:outline-none hover:text-gray-500 styled-text leading-4 mt-6 text-gray-800 dark:text-white cursor-pointer">Lorem ipsum</a>
+  <a href="javascript:void(0)" class="focus:outline-none hover:text-gray-500 styled-text leading-4 mt-6 text-gray-800 dark:text-white cursor-pointer">Our Services</a>
+  <a href="javascript:void(0)" class="focus:outline-none hover:text-gray-500 styled-text leading-4 mt-6 text-gray-800 dark:text-white cursor-pointer">Contact</a>
+  <a href="javascript:void(0)" class="focus:outline-none hover:text-gray-500 styled-text leading-4 mt-6 text-gray-800 dark:text-white cursor-pointer">Testimonials</a>
+  <a href="javascript:void(0)" class="focus:outline-none hover:text-gray-500 styled-text leading-4 mt-6 text-gray-800 dark:text-white cursor-pointer">Privacy Policy</a>
 </div>
 
     <div class="flex flex-col">
       <h2 class="custom-title" style="margin-top: -22px;">Lorem ipsum</h2>
       <a href="javascript:void(0)" class="focus:outline-none  hover:text-gray-500 styled-text leading-4 mt-6 text-gray-800 dark:text-white cursor-pointer">FAQs</a>
       <a href="javascript:void(0)" class="focus:outline-none  hover:text-gray-500 styled-text leading-4 mt-6 text-gray-800 dark:text-white cursor-pointer">About us</a>
-      <a href="javascript:void(0)" class="focus:outline-none  hover:text-gray-500 styled-text leading-4 mt-6 text-gray-800 dark:text-white cursor-pointer">Lorem ipsum</a>
-      <a href="javascript:void(0)" class="focus:outline-none  hover:text-gray-500 styled-text leading-4 mt-6 text-gray-800 dark:text-white cursor-pointer">Lorem ipsum</a>
+      <a href="javascript:void(0)" class="focus:outline-none  hover:text-gray-500 styled-text leading-4 mt-6 text-gray-800 dark:text-white cursor-pointer">Support</a>
+      <a href="javascript:void(0)" class="focus:outline-none  hover:text-gray-500 styled-text leading-4 mt-6 text-gray-800 dark:text-white cursor-pointer">Resources</a>
     </div>
     <div class="mt-10 lg:block hidden" style="margin-top: -4px;">
-      <label class="custom-title" >Lorem ipsum</label>
-      <p class="styled-text">Rorem ipsum dolor sit amet,
-      consectetur adipiscing elit.</p>
+    <label class="custom-title">Contact Us</label>
+<p class="styled-text">Get in touch with us for any inquiries, support, or feedback. We’re here to assist you and ensure the best experience.</p>
+
       <div class="custom-div cursor-pointer flex items-center justify-between mt-4">
       <input
     style="background-color: #73d1dd14;"
