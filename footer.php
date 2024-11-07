@@ -11,8 +11,7 @@
              alt="Master Sky Logo">
       </div>
       <p class="styled-text">Thank you for visiting our site. We strive to offer the best services and innovative solutions to meet your needs.</p>
-      <div class="flex items-center gap-x-4 mt-12">
-        <span>Suivez-nous :</span>
+      <div class="flex items-center gap-x-4 mt-12" style="margin-top: 1rem;">
         <button aria-label="instagram" class="focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800 opacity-50 w-8 h-8 flex-shrink-0 bg-gray-800 cursor-pointer hover:bg-gray-700 rounded-full flex items-center justify-center">
            <svg xmlns="http://www.w3.org/2000/svg"  width="27" height="27" viewBox="0,0,270,250"
           style="fill:#FFFFFF;">
@@ -36,23 +35,22 @@
       </div>
     </div>
     <div class="sm:ml-[150px] ml-0 flex flex-col">
-  <h2 class="custom-title" style="margin-top: -22px;">Quick Links</h2>
-  <a href="javascript:void(0)" class="focus:outline-none hover:text-gray-500 styled-text leading-4 mt-6 text-gray-800 dark:text-white cursor-pointer">Our Services</a>
-  <a href="javascript:void(0)" class="focus:outline-none hover:text-gray-500 styled-text leading-4 mt-6 text-gray-800 dark:text-white cursor-pointer">Contact</a>
-  <a href="javascript:void(0)" class="focus:outline-none hover:text-gray-500 styled-text leading-4 mt-6 text-gray-800 dark:text-white cursor-pointer">Testimonials</a>
-  <a href="javascript:void(0)" class="focus:outline-none hover:text-gray-500 styled-text leading-4 mt-6 text-gray-800 dark:text-white cursor-pointer">Privacy Policy</a>
+  <h2 class="custom-title" style="margin-top: -22px;">Menu</h2>
+  <a href="javascript:void(0)" class="focus:outline-none hover:text-gray-500 styled-text leading-4 mt-6 text-gray-800 dark:text-white cursor-pointer">About Us</a>
+  <a href="javascript:void(0)" class="focus:outline-none hover:text-gray-500 styled-text leading-4 mt-6 text-gray-800 dark:text-white cursor-pointer">Products</a>
+  <a href="javascript:void(0)" class="focus:outline-none hover:text-gray-500 styled-text leading-4 mt-6 text-gray-800 dark:text-white cursor-pointer">Portfolio</a>
+  <a href="javascript:void(0)" class="focus:outline-none hover:text-gray-500 styled-text leading-4 mt-6 text-gray-800 dark:text-white cursor-pointer">Innovation</a>
 </div>
 
     <div class="flex flex-col">
-      <h2 class="custom-title" style="margin-top: -22px;">Explore More</h2>
-      <a href="javascript:void(0)" class="focus:outline-none  hover:text-gray-500 styled-text leading-4 mt-6 text-gray-800 dark:text-white cursor-pointer">FAQs</a>
-      <a href="javascript:void(0)" class="focus:outline-none  hover:text-gray-500 styled-text leading-4 mt-6 text-gray-800 dark:text-white cursor-pointer">About us</a>
-      <a href="javascript:void(0)" class="focus:outline-none  hover:text-gray-500 styled-text leading-4 mt-6 text-gray-800 dark:text-white cursor-pointer">Support</a>
-      <a href="javascript:void(0)" class="focus:outline-none  hover:text-gray-500 styled-text leading-4 mt-6 text-gray-800 dark:text-white cursor-pointer">Resources</a>
+      <h2 class="custom-title" style="margin-top: -22px;">Quick Links</h2>
+      <a href="javascript:void(0)" class="focus:outline-none  hover:text-gray-500 styled-text leading-4 mt-6 text-gray-800 dark:text-white cursor-pointer">Contact</a>
+      <a href="javascript:void(0)" class="focus:outline-none  hover:text-gray-500 styled-text leading-4 mt-6 text-gray-800 dark:text-white cursor-pointer">Terms & conditions</a>
+      <a href="javascript:void(0)" class="focus:outline-none  hover:text-gray-500 styled-text leading-4 mt-6 text-gray-800 dark:text-white cursor-pointer">Privacy policy</a>
     </div>
     <div class="mt-10 lg:block hidden" style="margin-top: -4px;">
-    <label class="custom-title">Contact Us</label>
-<p class="styled-text">Get in touch with us for any inquiries, support, or feedback. We’re here to assist you and ensure the best experience.</p>
+    <label class="custom-title">Newsletter</label>
+    <p class="styled-text">Subscribe to our newsletter</p>
 
       <div class="custom-div cursor-pointer flex items-center justify-between mt-4">
       <input
@@ -61,7 +59,7 @@
     class="text-base leading-4 p-4 w-full focus:outline-none text-gray-800 dark:text-white dark:placeholder-white dark:bg-gray-900 dark:border-white placeholder-gray-800"
     placeholder="Contact@mail.com"
 />        <a href="#quote" class="btnfooter">
-          <span>SIGNUP</span>
+          <span>Subscribe</span>
       </a>
 
       </div>
