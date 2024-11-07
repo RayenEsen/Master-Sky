@@ -49,7 +49,7 @@
     <header class="header" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/images/CallToActionBackground.png');">
         <div ></div>
         <div class="content">
-        <h1 class="CTATitle">- <span id="section-title"><?php the_title() ?></span> -</h1>
+        <h1 class="CTATitle"><span id="section-title"><?php the_title() ?></span></h1>
         <p class="styled-text2">
         <p class="styled-text2">
     <?php

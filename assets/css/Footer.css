@@ -86,6 +86,13 @@ input::placeholder {
 }
 
 
+.footerimage{
+  max-width: 80%; 
+  height: auto; 
+  max-height: 120px;
+}
+
+
 
 @media (max-width: 768px) {
   /* Adjust this max-width as needed for your breakpoints */

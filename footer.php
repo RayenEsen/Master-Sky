@@ -1,4 +1,4 @@
-<div class="container py-16 xl:px-20 lg:px-12 sm:px-6 px-4 footer2" 
+<div class="container lg:py-16 xl:px-20 lg:px-12 sm:px-6 px-4 footer2"
      style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/images/ContactBackground.jpg'); 
             background-repeat: no-repeat; 
             background-size: cover;">
@@ -6,7 +6,7 @@
   <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4 md:gap-8 gap-4">
     <div class="flex flex-col flex-shrink-0">
       <div>
-        <img class="logo"
+        <img class="footerimage"
              src="<?php echo get_template_directory_uri(); ?>/assets/images/TransparentLogo.png" 
              alt="Master Sky Logo">
       </div>
@@ -14,7 +14,10 @@
       <div class="flex items-center gap-x-4 mt-12">
         <span>Suivez-nous :</span>
         <button aria-label="instagram" class="focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800 opacity-50 w-8 h-8 flex-shrink-0 bg-gray-800 cursor-pointer hover:bg-gray-700 rounded-full flex items-center justify-center">
-          <!-- SVG for Instagram -->
+           <svg xmlns="http://www.w3.org/2000/svg"  width="27" height="27" viewBox="0,0,270,250"
+          style="fill:#FFFFFF;">
+          <g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(8.53333,8.53333)"><path d="M15,2c-7.168,0 -13,5.832 -13,13c0,7.168 5.832,13 13,13c7.168,0 13,-5.832 13,-13c0,-7.168 -5.832,-13 -13,-13zM11.66602,6h6.66602c3.125,0 5.66797,2.54202 5.66797,5.66602v6.66602c0,3.125 -2.54202,5.66797 -5.66602,5.66797h-6.66602c-3.125,0 -5.66797,-2.54202 -5.66797,-5.66602v-6.66602c0,-3.125 2.54202,-5.66797 5.66602,-5.66797zM11.66602,8c-2.021,0 -3.66602,1.64597 -3.66602,3.66797v6.66602c0,2.021 1.64597,3.66602 3.66797,3.66602h6.66602c2.021,0 3.66602,-1.64597 3.66602,-3.66797v-6.66601c0,-2.021 -1.64597,-3.66602 -3.66797,-3.66602zM19.66797,9.66602c0.368,0 0.66602,0.29802 0.66602,0.66602c0,0.368 -0.29801,0.66797 -0.66602,0.66797c-0.368,0 -0.66797,-0.29997 -0.66797,-0.66797c0,-0.368 0.29997,-0.66602 0.66797,-0.66602zM15,10c2.757,0 5,2.243 5,5c0,2.757 -2.243,5 -5,5c-2.757,0 -5,-2.243 -5,-5c0,-2.757 2.243,-5 5,-5zM15,12c-1.65685,0 -3,1.34315 -3,3c0,1.65685 1.34315,3 3,3c1.65685,0 3,-1.34315 3,-3c0,-1.65685 -1.34315,-3 -3,-3z"></path></g></g>
+          </svg>
         </button>
         <button aria-label="facebook" class="focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800 opacity-50 w-8 h-8 flex-shrink-0 bg-gray-800 cursor-pointer hover:bg-gray-700 rounded-full flex items-center justify-center">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -41,7 +44,7 @@
 </div>
 
     <div class="flex flex-col">
-      <h2 class="custom-title" style="margin-top: -22px;">Lorem ipsum</h2>
+      <h2 class="custom-title" style="margin-top: -22px;">Explore More</h2>
       <a href="javascript:void(0)" class="focus:outline-none  hover:text-gray-500 styled-text leading-4 mt-6 text-gray-800 dark:text-white cursor-pointer">FAQs</a>
       <a href="javascript:void(0)" class="focus:outline-none  hover:text-gray-500 styled-text leading-4 mt-6 text-gray-800 dark:text-white cursor-pointer">About us</a>
       <a href="javascript:void(0)" class="focus:outline-none  hover:text-gray-500 styled-text leading-4 mt-6 text-gray-800 dark:text-white cursor-pointer">Support</a>
