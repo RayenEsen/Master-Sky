@@ -76,19 +76,9 @@
       </button>
     </div>
   </div>
-</div>
-
-
-<div class="footer">
-
-<div class="footer-links">
-    <span>Conditions générales&nbsp;&nbsp;&nbsp;&nbsp;FAQs</span>
-  </div>
-  <div class="footer-links2">
-    &copy; <span id="year"></span> <span style="opacity: 0.8;">  Copyright 2024 by Gazal Marketing</span>
-  </div>
-
   <?php wp_footer(); ?>
+
 </div>
+
 
 
