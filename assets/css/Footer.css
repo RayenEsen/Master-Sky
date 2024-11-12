@@ -106,3 +106,10 @@ input::placeholder {
     visibility: hidden;
   }
 }
+
+
+@media (max-width: 1338px) {
+  .logo{
+    visibility: hidden;
+  }
+}

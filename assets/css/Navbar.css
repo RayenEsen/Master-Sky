@@ -44,7 +44,7 @@
     display: block;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 1338px) {
     .quote-btn{
       visibility: hidden;
     }
@@ -211,7 +211,6 @@
 
 
 
-
 /* Container for navbar items */
 .navbar {
   display: flex;
@@ -235,7 +234,7 @@
 }
 
 /* Responsive styles for smaller screens */
-@media (max-width: 768px) {
+@media (max-width: 1338px) {
   .nav-links {
     display: none; /* Hide links by default */
     flex-direction: column;
